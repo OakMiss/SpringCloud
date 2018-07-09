@@ -36,7 +36,7 @@ public class DataSourceConfig {
     public SqlSessionFactory authSqlSessionFactory(@Qualifier("authDataSource") DataSource dataSource) throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
-        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath*:mapper/*.xml"));
+        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:mapper/*.xml"));
         bean.setConfigLocation(new DefaultResourceLoader().getResource("classpath:mybatis-config.xml"));// 加载mybatis核心配置
         return bean.getObject();
     }
