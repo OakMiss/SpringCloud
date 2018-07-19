@@ -25,6 +25,7 @@ public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer{
     }
 
     /**
+     *
      * 配置消息代理
      * 广播式
      * @param registry
