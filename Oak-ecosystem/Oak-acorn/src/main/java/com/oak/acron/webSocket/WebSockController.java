@@ -1,7 +1,7 @@
-package Oak.acorn.webSocket;
+package com.oak.acron.webSocket;
 
-import Oak.acorn.entity.RequestMessage;
-import Oak.acorn.entity.ResponseMessage;
+import com.oak.acron.entity.RequestMessage;
+import com.oak.acron.entity.ResponseMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

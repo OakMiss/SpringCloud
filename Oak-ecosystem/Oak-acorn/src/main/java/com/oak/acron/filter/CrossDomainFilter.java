@@ -1,4 +1,4 @@
-package Oak.acorn.filter;
+package com.oak.acron.filter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

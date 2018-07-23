@@ -1,7 +1,7 @@
-package Oak.acorn.service.impl;
+package com.oak.acron.service.impl;
 
-import Oak.acorn.dao.TestDao;
-import Oak.acorn.service.TestService;
+import com.oak.acron.dao.TestDao;
+import com.oak.acron.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

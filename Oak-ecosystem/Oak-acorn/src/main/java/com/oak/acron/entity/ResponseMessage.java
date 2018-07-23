@@ -1,4 +1,4 @@
-package Oak.acorn.entity;
+package com.oak.acron.entity;
 
 /**
  * Created by Oak on 2018/7/5.

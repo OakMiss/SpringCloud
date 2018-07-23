@@ -1,4 +1,4 @@
-package Oak.acorn.config;
+package com.oak.acron.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;

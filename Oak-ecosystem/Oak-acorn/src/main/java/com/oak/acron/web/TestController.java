@@ -1,6 +1,6 @@
-package Oak.acorn.web;
+package com.oak.acron.web;
 
-import Oak.acorn.service.TestService;
+import com.oak.acron.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

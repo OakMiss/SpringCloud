@@ -39,11 +39,6 @@ public class Person {
     public Person() {
     }
 
-    public Person add(String name){
-        this.name = name;
-        return this;
-    }
-
     @Override
     public String toString() {
         return "Person{" +

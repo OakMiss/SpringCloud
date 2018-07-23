@@ -2,7 +2,7 @@ package com.link.coding;
 
 /**
  * Created by Oak on 2018/7/20.
- * Description:
+ * Description: 链式编程
  */
 public class LinkCoding {
     public static void main(String[] args) {

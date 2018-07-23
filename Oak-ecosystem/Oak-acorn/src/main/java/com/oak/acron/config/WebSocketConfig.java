@@ -1,4 +1,4 @@
-package Oak.acorn.config;
+package com.oak.acron.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
