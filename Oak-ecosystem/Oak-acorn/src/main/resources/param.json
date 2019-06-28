@@ -1,0 +1,276 @@
+{
+    "class": "go.GraphLinksModel", 
+    "nodeDataArray": [
+        {
+            "location": {
+                "class": "go.Point", 
+                "x": 251, 
+                "y": 383.0000000000001
+            }, 
+            "key": "205b1647d9ffb90", 
+            "nodeName": "传入神经", 
+            "items": [
+                {
+                    "name": "ID", 
+                    "value": "12323", 
+                    "iskey": true, 
+                    "figure": "Decision"
+                }, 
+                {
+                    "name": "名称", 
+                    "value": "神经元", 
+                    "iskey": false, 
+                    "figure": "Cube1"
+                }
+            ]
+        }, 
+        {
+            "location": {
+                "class": "go.Point", 
+                "x": 1377, 
+                "y": 753.9999999999999
+            }, 
+            "key": "27c71647d9fff78", 
+            "nodeName": "记忆神经", 
+            "items": [
+                {
+                    "name": "ID", 
+                    "value": "12323", 
+                    "iskey": true, 
+                    "figure": "Decision"
+                }, 
+                {
+                    "name": "名称", 
+                    "value": "神经元", 
+                    "iskey": false, 
+                    "figure": "Cube1"
+                }
+            ]
+        }, 
+        {
+            "location": {
+                "class": "go.Point", 
+                "x": 1373.9999999999995, 
+                "y": 531.0000000000003
+            }, 
+            "key": "c6711647da00360", 
+            "nodeName": "传出神经", 
+            "items": [
+                {
+                    "name": "ID", 
+                    "value": "12323", 
+                    "iskey": true, 
+                    "figure": "Decision"
+                }, 
+                {
+                    "name": "名称", 
+                    "value": "神经元", 
+                    "iskey": false, 
+                    "figure": "Cube1"
+                }
+            ]
+        }, 
+        {
+            "location": {
+                "class": "go.Point", 
+                "x": 713.5, 
+                "y": 498
+            }, 
+            "key": "873016492bfed28", 
+            "nodeName": "前驱神经", 
+            "items": [
+                {
+                    "name": "ID", 
+                    "value": "12323", 
+                    "iskey": true, 
+                    "figure": "Decision"
+                }, 
+                {
+                    "name": "名称", 
+                    "value": "神经元", 
+                    "iskey": false, 
+                    "figure": "Cube1"
+                }
+            ]
+        }, 
+        {
+            "location": {
+                "class": "go.Point", 
+                "x": 1070.5, 
+                "y": 401
+            }, 
+            "key": "347a16492bff110", 
+            "nodeName": "决策神经", 
+            "items": [
+                {
+                    "name": "ID", 
+                    "value": "12323", 
+                    "iskey": true, 
+                    "figure": "Decision"
+                }, 
+                {
+                    "name": "名称", 
+                    "value": "神经元", 
+                    "iskey": false, 
+                    "figure": "Cube1"
+                }
+            ]
+        }, 
+        {
+            "location": {
+                "class": "go.Point", 
+                "x": 1070.5, 
+                "y": 643
+            }, 
+            "key": "0e0316492bff4f8", 
+            "nodeName": "后驱神经", 
+            "items": [
+                {
+                    "name": "ID", 
+                    "value": "12323", 
+                    "iskey": true, 
+                    "figure": "Decision"
+                }, 
+                {
+                    "name": "名称", 
+                    "value": "神经元", 
+                    "iskey": false, 
+                    "figure": "Cube1"
+                }
+            ]
+        }, 
+        {
+            "location": {
+                "class": "go.Point", 
+                "x": 509.5, 
+                "y": 425
+            }, 
+            "key": "822916492c57720", 
+            "nodeName": "感知神经", 
+            "items": [
+                {
+                    "name": "ID", 
+                    "value": "12323", 
+                    "iskey": true, 
+                    "figure": "Decision"
+                }, 
+                {
+                    "name": "名称", 
+                    "value": "神经元", 
+                    "iskey": false, 
+                    "figure": "Cube1"
+                }
+            ]
+        }
+    ], 
+    "linkDataArray": [
+        {
+            "from": "873016492bfed28", 
+            "to": "347a16492bff110", 
+            "points": [
+                789, 
+                498, 
+                799, 
+                498, 
+                892, 
+                498, 
+                892, 
+                401, 
+                985, 
+                401, 
+                995, 
+                401
+            ]
+        }, 
+        {
+            "from": "347a16492bff110", 
+            "to": "0e0316492bff4f8", 
+            "points": [
+                1070.5, 
+                452, 
+                1070.5, 
+                462, 
+                1070.5, 
+                522, 
+                1070.5, 
+                522, 
+                1070.5, 
+                582, 
+                1070.5, 
+                592
+            ]
+        }, 
+        {
+            "from": "0e0316492bff4f8", 
+            "to": "c6711647da00360", 
+            "points": [
+                1146, 
+                643, 
+                1156, 
+                643, 
+                1222.25, 
+                643, 
+                1222.25, 
+                531, 
+                1288.5, 
+                531, 
+                1298.5, 
+                531
+            ]
+        }, 
+        {
+            "from": "0e0316492bff4f8", 
+            "to": "27c71647d9fff78", 
+            "points": [
+                1146, 
+                643, 
+                1156, 
+                643, 
+                1223.75, 
+                643, 
+                1223.75, 
+                754, 
+                1291.5, 
+                754, 
+                1301.5, 
+                754
+            ]
+        }, 
+        {
+            "from": "205b1647d9ffb90", 
+            "to": "822916492c57720", 
+            "points": [
+                326.5, 
+                383, 
+                336.5, 
+                383, 
+                380.25, 
+                383, 
+                380.25, 
+                425, 
+                424, 
+                425, 
+                434, 
+                425
+            ]
+        }, 
+        {
+            "from": "822916492c57720", 
+            "to": "873016492bfed28", 
+            "points": [
+                585, 
+                425, 
+                595, 
+                425, 
+                611.5, 
+                425, 
+                611.5, 
+                498, 
+                628, 
+                498, 
+                638, 
+                498
+            ]
+        }
+    ]
+}
